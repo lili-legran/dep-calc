@@ -1,0 +1,37 @@
+.field {
+  width: 80%;
+  margin: 0 auto 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 18px;
+  &__select-label {
+    flex-grow: 2;
+  }
+  &__select {
+    width: 200px;
+    padding: 5px;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    border: 1px solid #c5c5c5;
+    border-radius: 3px;
+    cursor: pointer;
+    &:focus {
+      border: 1px solid #064068;
+    }
+  }
+  &__option {
+    padding: 5px;
+  }
+}
+
+@media (max-width: 737px) {
+  .field {
+    width: 100%;
+    flex-direction: column;
+    &__select-label {
+      margin-bottom: 10px;
+    }
+  }
+}

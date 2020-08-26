@@ -1,0 +1,29 @@
+.user-data {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 30px;
+  width: 700px;
+  background: #fcfcfc;
+  padding: 50px;
+  box-sizing: border-box;
+  border-radius: 5px;
+  &__form {
+    width: 100%;
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 737px) {
+  .user-data {
+    width: 350px;
+    padding: 50px 30px;
+  }
+}
+
+@media (max-width: 480px) {
+  .user-data {
+    width: 300px;
+  }
+}

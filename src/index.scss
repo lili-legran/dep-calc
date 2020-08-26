@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'PT Serif', serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: rgba(0, 0, 0, 0.1);
+}
+
+iframe {
+  border-width: 0;
+  // для корректного отображения страницы PDF
+  height: 100vh;
+  width: 100vw;
+}
