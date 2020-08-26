@@ -2,7 +2,7 @@ import React from 'react';
 import { connect } from 'react-redux';
 import PropTypes from 'prop-types';
 import Button from '../../UI/Button/Button';
-import Select from '../../UI/Select/Select';
+import Select from '../Select/Select';
 import {
   setSumValue,
   setPeriodValue,
